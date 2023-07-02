@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="navbar" id="home">
+	
+    <div class="logo">
+      <h2>Atharv</h2>
+    </div>
+    
+    
+    <ul class="links">
+      <li><a href="#home"class="n">Home</a></li>
+      <li><a href="#About" class="n">About</a></li>
+      <li><a href="#services" class="n">Services</a></li>
+      <li><a href="#contact" class="n">Contact Us</a></li>
+    </ul>
+    
+    
+    <div class="right">
+      <button>More info</button>
+    </div>
+  </div>
+
+
+    <div class="container">
+        <h1 align="center">Welcome to Atharv Company</h1>
+      </div>
+    </header>
+    <div class="about" id="About">
+        <h2>About Us</h2>
+        <div class="info">
+          <p>Atharv Company is a leading provider of innovative solutions in the tech industry. <br> We specialize in creating cutting-edge software products that empower businesses and individuals to achieve their goals.</p>
+        
+        <h2 id="services">Our Services</h2><br><br><br><br>
+        <ul>
+          <li class="l">Web Development</li>
+          <p class="p">Unlock the potential of your online presence with our exceptional web development services. We are passionate about crafting stunning and functional websites that captivate visitors and drive results. Whether you're an established business looking to revamp your online platform or a budding entrepreneur starting from scratch, we have the expertise to bring your vision to life.</p> <br><br>
+          <li class="l">Mobile App Development</li>
+          <p class="p">In today's fast-paced digital world, having a mobile app for your business is crucial to staying ahead of the competition and reaching your target audience effectively. At our company, we specialize in creating high-quality, feature-rich mobile applications that bring your ideas to life and provide exceptional user experiences. Whether you're a startup, a small business, or an enterprise-level organization, we have the expertise to develop the perfect mobile app for your needs.</p><br><br>
+          <li class="l">Data Analytics</li>
+          <p class="p">In today's data-driven world, businesses have a wealth of information at their fingertips. However, harnessing the power of data requires the right expertise and tools. At our company, we offer comprehensive data analytics services to help businesses gain valuable insights, make informed decisions, and drive success.</p><br><br>
+          <li class="l">Cloud Computing</li>
+          <p class="p">In the digital era, businesses need scalable and reliable infrastructure to support their operations and drive innovation. Cloud computing offers a flexible and cost-effective solution that allows businesses to leverage powerful computing resources without the need for physical infrastructure. At our company, we provide comprehensive cloud computing services to help businesses optimize their operations and accelerate growth.</p>
+        </ul>
+        </div>
+
+        <div class="contact" id="contact">
+          <h2>Contact Us</h2>
+          <p>Email:<a href="mailto:atharvnaik91@gmail.com">atharvnaik91@gmail.com</a></p>
+          <p>Phone: +91 7038211395</p>
+         </div>
+
+      </div>
+      
+      <footer>
+        <div class="footer">
+          <p>&copy; 2023 Atharv Company. All rights reserved.</p>
+        </div>
+      </footer>
+
+
+
+      <script>
+        const navbar = document.querySelector('.navbar')
+
+navbar.querySelector('.toggle').addEventListener('click',()=>{
+	
+	navbar.classList.toggle('collapsed')
+	
+})
+
+
+
+window.addEventListener('scroll',(e)=>{
+	
+	let windowY = window.pageYOffset
+	
+	let navbarHeight = document.querySelector('.navbar').offsetHeight
+	
+	if(windowY>navbarHeight) navbar.classList.add('sticky')
+	else navbar.classList.remove('sticky')
+	
+	
+	
+	
+})
+      </script>
+</body>
+</html>

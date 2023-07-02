@@ -1,0 +1,115 @@
+.container{
+    margin-top: 250px;
+    color: aqua;
+    text-shadow: 0 0 80px #fff; 
+}
+
+.about{
+margin-top: 100px;
+}
+.contact{
+    margin: 50px;
+    margin-left: 0%;
+    color: azure;
+}
+.footer{
+    text-align: center;
+    background-color: #888;
+}
+h2 {
+    font-size: xx-large;
+    color: aliceblue;
+
+}
+.info{
+    color: #efefef;
+}
+body{
+    background-image: url(bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Nunito|Lacquer');
+
+
+body {
+	margin: 0;
+}
+
+body,button,input {
+	font-family: Nunito;
+}
+
+* {
+	box-sizing: border-box;
+	transition: 0.4s ease all;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	margin: 0;
+}
+
+
+ul {
+	padding: 0;
+	margin: 0;
+}
+
+
+
+.navbar {
+	background-color: #080808;
+	color: #fff;
+	padding: 15px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+}
+
+.navbar .logo {
+	cursor: pointer;
+	font-family: Lacquer;
+}
+
+.n{
+    margin-left: 15px;
+    color: #fff;
+}
+.navbar > .links {
+	
+	margin-left: auto;
+	margin-right: 50px;
+	list-style: none;
+	display: flex;
+	align-items: center;	
+}
+
+
+button {
+	
+	outline: none;
+	font-weight: bold;
+	padding: 10px 18px;
+	border-radius: 25px;
+	border: 1px solid darken;
+	letter-spacing: 1px;
+}
+.p{
+    margin-right: 500px;
+    text-align: center;
+    margin-left: 500px;
+}
+.l{
+    color: #888;
+    font-size: larger;
+}
+#services{
+    margin-top: 100px;
+}
+#About{
+    text-align: center;
+}
