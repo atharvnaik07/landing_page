@@ -43,10 +43,6 @@ To run this project locally, follow these steps:
 5. Customize the content and sections of the landing page to suit your needs.
 
 
-## Contributing
-
-Contributions to this project are welcome. If you find any issues or have suggestions for improvement, please open an issue or submit a pull request on the [GitHub repository](https://github.com/your-username/landing-page).
-
 ## License
 
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
